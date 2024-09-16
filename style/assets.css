@@ -1,0 +1,39 @@
+.logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header_logo {
+    width: 100px;
+    border-radius: 100%;
+    filter: drop-shadow(2px 2px 1px black);
+    position: relative;
+    top: -52px;
+    right: 0;
+    left: 0;
+}
+
+.header h2 {
+    font-family: "Roboto", Bold, Italic, sans-serif;
+    filter: drop-shadow(1px 1px 1px rgba(255, 255, 255, 0.8));
+}
+
+.cart_photo {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.food h3 {
+    text-align: start;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria Mama</title>
+    <link rel="icon" href="./assets/img/logo_header.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/bd9fd14528.js" crossorigin="anonymous"></script>
+    <script src="./script/template.js"></script>
+    <script src="./script/db.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/assets.css">
+    <link rel="stylesheet" href="style/basket.css">
+    <link rel="stylesheet" href="style/standart.css">
+    <link rel="stylesheet" href="script/db.js">
+    <link rel="stylesheet" href="script/template.js">
+</head>
+
+<body onload="init()">
+    <header class="header">
+        <div class="logo">
+            <h2>Pizzeria by Mama</h2>
+        </div>
+        <img class="burger_menu" onclick="toggleBasket(); renderBasket()" src="./assets/icons/menu-burger.png"
+            alt="burger_menu">
+    </header>
+
+    <main class="main_view">
+        <section class="cart" id="dishCart">
+            <img class="cart_photo" src="./assets/img/gyros.jpg" alt="title_photo">
+            <img class="header_logo" src="./assets/img/logo_header.png" alt="logo">
+            <div class="header_dishes">
+                <h1 class="cart_header">Pizzeria Mama</h1>
+                <a class="ratings" href="#">Bewertungen (4,2 von 5 Sternen)</a>
+            </div>
+            <div class="categories" id="categoriesBox"></div>
+            <div class="dishCartFull">
+                <div class="categoryHeader">
+                    <img class="categoryPhoto" src="./assets/img/pizza.jpg" alt="">
+                    <h2>kategroie name</h2>
+                </div>
+                <div class="dishHeaderFull">
+                    <div class="dishHeader">
+                        <h2>gerricht</h2>
+                        <i class="fa-solid fa-plus fa-2xl" style="color: #ff9935;"></i>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="basket_wrapper d_none" id="basketId">
+            <div class="basket">
+                <div class="headline">
+                    <h2>Warenkorb</h2>
+                </div>
+                <div class="food_list" id="foodListId"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+
+    </footer>
+</body>
+
+</html>

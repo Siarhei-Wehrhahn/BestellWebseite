@@ -1,0 +1,96 @@
+.food_list {
+    padding: 8px;
+}
+
+.main_view {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: row;
+    text-align: center;
+}
+
+.cart {
+    width: calc(100% - 300px);
+    min-height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    transition: width 0.4s ease-in-out;
+}
+
+.cart_header {
+    margin-bottom: 14px;
+}
+
+.header_dishes {
+    width: 100%;
+    position: relative;
+    top: -100px;
+    padding-left: 16px;
+    text-align: start;
+}
+
+.ratings {
+    text-align: start;
+    text-decoration: none;
+    color: rgb(237, 130, 0);
+    font-weight: 400;
+}
+
+.categories {
+    height: 50px;
+    width: 90vw;
+    max-width: 100vw;
+    background-color: rgba(198, 198, 198, 0.3);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    top: -80px;
+    z-index: 1;
+    white-space: nowrap;
+    overflow-x: auto;
+    transition: width 0.4s ease-in-out;
+}
+
+.categoryButton {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 0 8px; 
+}
+
+
+.right_hand {
+    padding: 16px;
+}
+
+.dishCartFull {
+    width: 97%;
+}
+
+.dishHeaderFull {
+    width: 100%;
+}
+
+.dishHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: row;
+}
+
+.categoryHeader {
+    width: 100%;
+}
+
+.categoryPhoto {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 -500px;
+}

@@ -1,0 +1,25 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box; 
+}
+
+.d_none {
+    display: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgba(255, 140, 0, 0.899);
+    margin: 0;
+    gap: 16px;
+    padding: 0 24px;
+}
