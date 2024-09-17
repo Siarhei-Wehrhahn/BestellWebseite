@@ -14,8 +14,6 @@
     <link rel="stylesheet" href="style/assets.css">
     <link rel="stylesheet" href="style/basket.css">
     <link rel="stylesheet" href="style/standart.css">
-    <link rel="stylesheet" href="script/db.js">
-    <link rel="stylesheet" href="script/template.js">
 </head>
 
 <body onload="init()">
@@ -28,7 +26,7 @@
     </header>
 
     <main class="main_view">
-        <section class="cart" id="dishCart">
+        <section class="cart" id="dishCartId">
             <img class="cart_photo" src="./assets/img/gyros.jpg" alt="title_photo">
             <img class="header_logo" src="./assets/img/logo_header.png" alt="logo">
             <div class="header_dishes">
@@ -36,19 +34,7 @@
                 <a class="ratings" href="#">Bewertungen (4,2 von 5 Sternen)</a>
                 <div class="categories" id="categoriesBox"></div>
             </div>
-            <div class="dishCartFull">
-                <div class="categoryHeader">
-                    <img class="categoryPhoto" src="./assets/img/pizza.jpg" alt="">
-                    <h2>kategroie name</h2>
-                </div>
-                <div class="dishHeaderFull">
-                    <div class="dishHeader">
-                        <h2>gerricht</h2>
-                        <i class="fa-solid fa-plus fa-2xl" style="color: #ff9935;"></i>
-                    </div>
-
-                </div>
-            </div>
+            <div class="dishCartFull" id="dishCartFullId"></div>
         </section>
 
         <section class="basket_wrapper d_none" id="basketId">
@@ -62,7 +48,7 @@
     </main>
 
     <footer class="footer">
-
+        <p>© 2024 Pizzeria</p>
     </footer>
 </body>
 
